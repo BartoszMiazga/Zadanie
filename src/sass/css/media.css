@@ -1,0 +1,179 @@
+@media (min-width: 992px) {
+  .navbar .hamburger {
+    display: none;
+  }
+  .navbar__items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    text-decoration: none;
+  }
+  .navbar__item {
+    display: flex;
+    overflow: hidden;
+    font-size: 2.6rem;
+    font-weight: 300;
+  }
+  .navbar__logo {
+    padding-left: 0;
+    justify-content: start;
+  }
+  .navbar__logo span {
+    padding-left: 10px;
+  }
+  .navbar__text,
+  .navbar .fa-tree {
+    font-size: 4.2rem;
+  }
+  .header__img {
+    background-image: url("../../dist/img/Jungle Desktop.jpg");
+    background-position: 50% 70%;
+  }
+  .header__text {
+    display: flex;
+    justify-content: flex-start;
+    top: 43%;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 2.4rem;
+    opacity: 1;
+    padding: 0;
+  }
+  .header__span {
+    font-size: 2.8rem;
+  }
+  .header__span::before {
+    display: none;
+  }
+  .aboutus {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .aboutus__header {
+    padding: 3em 0 2em;
+  }
+  .aboutus__container {
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .aboutus span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 0;
+  }
+  .aboutus__text {
+    width: 48%;
+    height: 80%;
+  }
+  .aboutus__img {
+    width: 48%;
+    height: 100%;
+  }
+  .aboutus__hero-img {
+    margin-top: 5%;
+    background-image: url("../../dist/img/Girl Desktop.jpg");
+    height: 45vh;
+  }
+  .aboutus__hero-img--text {
+    padding: 3rem 15rem;
+    font-size: 5rem;
+    border: 2px solid #fff;
+    z-index: 222;
+  }
+  .offer__header {
+    padding: 6em 0 2em 0;
+  }
+  .offer__cards {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .offer__card {
+    padding: 1.5em 3em;
+  }
+  .offer p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .footer {
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .footer__logo {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    font-size: 3em;
+  }
+  .footer__items span {
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+  .footer__aboutus, .footer__company, .footer__documents {
+    padding: 0 4rem;
+  }
+  .footer__aboutus li, .footer__company li, .footer__documents li {
+    padding: 0.5em 0;
+  }
+  .footer__cpr {
+    padding: 2em;
+  }
+  .contact__bottom {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 2em;
+    font-size: 2rem;
+  }
+  .isActive {
+    display: none;
+    transform: translateX(0%);
+  }
+  .contact {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact__hero-img {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .contact__container {
+    padding-left: 4em;
+  }
+  .contact__heading-3 {
+    padding-top: 7em;
+  }
+  .contact__info-boxes {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 999;
+  }
+  .contact__info-box {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 4em;
+    margin: 2em;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+  }
+  .contact__info-box:hover {
+    background-color: #f5f5f5;
+  }
+}/*# sourceMappingURL=media.css.map */
